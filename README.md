@@ -1,0 +1,13 @@
+# IRS
+Scripts to work with IRS 990 XML data
+
+You can find background on the data here:
+https://www.irs.gov/newsroom/irs-makes-electronically-filed-form-990-data-available-in-new-format
+
+There are three scripts in the directory:
+
+check_files_nicar -- downloads XML filings
+parse_990_nicar --   extracts key fields from filings
+diversions_nicar --  select filings where organization reported a material diversion of assets
+
+
